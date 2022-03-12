@@ -1,8 +1,7 @@
 //Módulo 02 Exercício 20 Dá para ver o filme?
 //O programa mostrará o horário do filme, o preço do ingresso e a hora atual, se a hora atual for 
 //menor que a hora do filme então o programa perguntará se o usuário tem dinheiro, se 
-//tiver o dinheinheiro o programa exibirá a mensagem "Você consegue comprar os ingressos! Seja Bem Vindo(a)", caso
-//o usuário não tenha dinheiro aparecerá a mensagem "Você infelizmente não consegue comprar os 
+//tiver o dinheinheiro o programa exibirá a mensagem "Você consegue comprar os ingressos! Seja Bem Vindo(a)", caso o usuário não tenha dinheiro aparecerá a mensagem "Você infelizmente não consegue comprar os 
 //ingressos. Volte outro dia", mesmo estando no horário para comprar o ingresso.
 //caso a hora tenha passado da hora de assistir o filme o programa exibirá a seguinte mensagem 
 //Você infelizmente não consegue comprar os ingressos. Volte outro dia".
