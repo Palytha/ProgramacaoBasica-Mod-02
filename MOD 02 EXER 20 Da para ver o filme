@@ -6,7 +6,7 @@
 //ingressos. Volte outro dia", mesmo estando no horário para comprar o ingresso.
 //caso a hora tenha passado da hora de assistir o filme o programa exibirá a seguinte mensagem 
 //Você infelizmente não consegue comprar os ingressos. Volte outro dia".
-//Autora: Fernanda de Almeida Guerra
+//Autora Fernanda de Almeida Guerra
 
 programa
 {
