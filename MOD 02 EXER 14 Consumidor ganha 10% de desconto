@@ -1,0 +1,37 @@
+//Módulo 02 Exercício 14 Consumidor ganha 10% de desconto se gastar mais que R$ 500 reais em compras
+//O programa solicitará ao usuário o valor total das compras se o valor for maior que 
+//R$500 reais receberá um desconto de 10%, o programa calculará o novo valor e exibirá
+//na tela o novo valor com desconto.
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+	inclua biblioteca Matematica --> m
+	funcao inicio()
+	{	
+		real valor, desc
+		
+		escreva ("Qual o valor total das suas compras? R$ ")
+		leia (valor)
+
+		escreva ("\n\n-----------------------------------------")
+
+		se (valor <= 500) {
+			escreva ("\n\nVocê comprou R$ ", valor, " na nossa loja. Obrigada")
+			escreva ("\n\n\n")
+		}
+
+		se (valor > 500 ) {
+			escreva ("\n\nVocê comprou R$", valor, " na nossa loja. Ogrigada.")
+			escreva (" \n\n\n==========ATENÇÃO==========")
+
+			desc = ((valor * 10)/100)
+			valor = (valor - desc)
+			valor = m.arredondar(valor, 2)
+			escreva ("\n\nPor fazer mais de R$500 reais em compras, você vai receber ", desc, " de desconto!")
+			escreva ("\nO valor a ser pago é R$ ",valor, " ! Volte sempre!")
+			escreva ("\n\n")
+
+		}
+	}
+}
