@@ -1,0 +1,50 @@
+//Módulo 02 Exercício 28 Preço por Época
+//O programam solicitará ao usuário o prço de um produto e mostrará um menu
+//conforme o menu mostrado calculará o desconto ou os juros que irá ser aplicado 
+//conforme a época selecionada.
+//Autora Fernanda de Almeida Guerra.
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real preco
+		inteiro opcao
+	
+		escreva ("Digite o preço do produto: R$ ")
+		leia (preco)
+
+		escreva ("\n========== ESCOLHA UM PERÍODO ==========\n")
+		escreva ("\n1.\tCarnaval.")
+		escreva ("\n2.\tFérias Escolares.")
+		escreva ("\n3.\tDia das Crianças.")
+		escreva ("\n4.\tBlack Friday.")
+		escreva ("\n5.\tNatal.")
+		escreva ("\n========================================")
+		escreva ("\n\nDigite sua opção => ")
+		leia (opcao)	
+
+		escolha (opcao){
+
+			caso 1:
+				escreva ("\nNa época do CARNAVAL, o preço sai por R$ ", (preco + (preco * 10)/100))
+				pare
+			caso 2:
+				escreva ("\nNa época das FÉRIAS ESCOLARES, o preço sai por R$ ", (preco + (preco * 20)/100))
+				pare
+			caso 3:
+				escreva ("\nNa época do DIA DAS CRIANÇAS, o preço sai por R$ ", (preco + (preco * 5)/100))
+				pare
+			caso 4:
+				escreva ("\nNa época da BLACK FRIDAY, o preço sai por R$ ", (preco - (preco * 30)/100))
+				pare
+			caso 5:
+				escreva ("\nNa época do NATAL, o preço sai por R$ ", (preco - (preco * 5)/100))
+				pare
+			caso contrario:
+				escreva ("\nEm épocas assim, mantenha o valor de R$ ", preco, ".")
+		}
+		escreva ("\n\n")
+	}	
+}
