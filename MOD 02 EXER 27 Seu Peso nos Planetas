@@ -1,0 +1,63 @@
+//Módulo 02 Exercício 27 Seu Peso nos Planetas
+//O programam mostrará um menu com o nome dos planetas e solicitará ao usuário o seu peso e em qual planeta
+//deseja calcular o peso. Na tela mostrará o nome do planeta escolhido e seu peso naquele planeta.
+//Autora Fernanda de Almeida Guerra.
+
+programa
+{
+	//inclua biblioteca Tipos --> t
+	funcao inicio()
+	{
+		real peso
+		inteiro opcao
+		
+		escreva ("\nQual é o seu peso aqui na Terra (Kg): ")
+		leia (peso)
+		escreva ("\n========= ESCOLHA UM PLANETA =========")
+		escreva ("\n1.\t\tMercúrio")
+		escreva ("\n2.\t\tVênus")
+		escreva ("\n3.\t\tMarte")
+		escreva ("\n4.\t\tJúpter")
+		escreva ("\n5.\t\tSaturno")
+		escreva ("\n6.\t\tUrano")
+		escreva ("\n7.\t\tNetuno")
+		escreva ("\n8.\t\tPlutão")
+		escreva ("\n======================================")
+		escreva ("\n\nDigite a opção => ")
+		leia (opcao)
+		escreva ("\n======================================\n")
+	
+		escolha (opcao){
+
+			caso 1:
+				escreva ("\nNo planeta MERCÚRIO, \nseu peso seria, ",(peso * 0.37), " Kg.")
+				pare
+			caso 2:
+				escreva ("\nNo planeta VÊNUS, \nseu peso seria, ", (peso * 0.88), " Kg.")
+				pare
+			caso 3:
+				escreva ("\nNo planta MARTE, \nseu peso seira, ", (peso * 0.38), " Kg.")
+				pare
+			caso 4:
+				escreva ("\nNo planeta JÚPTER, \nseu peso seria, ",(peso * 2.64)," kg.")
+				pare
+			caso 5:
+				escreva ("\nNo planeta SATURNO, \nseu peso seria, ",(peso * 1.15)," Kg.")
+				pare
+			caso 6:
+				escreva ("\nNo planeta URANO, \nseu peso seira, ", (peso * 1.17), " Kg.")
+				pare 
+			caso 7:
+				escreva ("\nNo planeta NETUNO, \nseu peso seria, ", (peso * 1.18), " Kg.")
+				pare
+			caso 8:
+				escreva ("\nNo planeta PLUTÃO, \nseu peso seria, ", (peso * 0.11), " Kg.")
+				pare
+			caso contrario:
+				escreva ("Seu peso não pode ser calculado \nem outros planetas.\nTente novamente.")
+		}
+		escreva ("\n")
+		escreva ("\n======================================")
+		escreva ("\n\n")
+	}
+}
