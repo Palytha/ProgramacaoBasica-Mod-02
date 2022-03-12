@@ -1,0 +1,45 @@
+//Módulo 02 Exercício 23 Serviço Militar V2.0
+//O programa solicitará o ano de nascimento e calculará a idade do usuário, o programa
+//exibirá o ano atual e idade do usuário se a idade for igual a 18 exibirá a seguinte
+//mensagem "JOVEM! Você precisa se alistar!", se a idade for menor que 18 exibirá a 
+//seguinte mensagem "Você ainda não completou 18 anos." e quanto tempo falta para completar 
+//18 anos e se a idade for maior que 18 anos o programa exibirá a mensagem " Você deveria 
+//ter se alistado" e calculará o ano que era para ter feito o alistamento.
+//Autora Fernanda de Almeida Guerra
+
+programa
+{	
+	inclua biblioteca Calendario --> c
+	funcao inicio()
+	{	
+
+		inteiro ano, idade, anoatual, faltam, alistamento, atrasado
+		
+		escreva ("\nEm que ano você nasceu? ")
+		leia (ano)
+
+		anoatual = c.ano_atual()
+		idade = c.ano_atual() - ano
+		alistamento = ano + 18
+		atrasado = anoatual - alistamento
+		faltam = 18 - idade
+		
+		se (idade == 18) {
+			escreva ("\nEstamos em ",anoatual, ". Você completa 18 anos.")
+			escreva ("\nJOVEM! Você precisa se alistar!")
+		}senao {
+			se (idade < 18 ) {
+				escreva ("\nEstamos em ", anoatual, ". E você tem ", idade, " anos.")
+				escreva ("\nVocê ainda não completou 18 anos. Isso acontecerá em ", alistamento)
+				escreva ("\nFalta(m) ", faltam, " anos!")
+			}senao {
+					escreva ("\nEstamos em ", anoatual, " Você tem ", idade, " anos.")
+					escreva ("\nVocê deveria ter se alistado em ", alistamento,".")
+					escreva ("\nJá se passaram ", atrasado," ano(s)")
+					
+				}
+		}
+		
+		escreva ("\n\n")
+	}
+}
