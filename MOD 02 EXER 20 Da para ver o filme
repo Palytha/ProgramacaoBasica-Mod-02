@@ -1,0 +1,44 @@
+//Módulo 02 Exercício 20 Dá para ver o filme?
+//O programa mostrará o horário do filme, o preço do ingresso e a hora atual, se a hora atual for 
+//menor que a hora do filme então o programa perguntará se o usuário tem dinheiro, se 
+//tiver o dinheinheiro o programa exibirá a mensagem "Você consegue comprar os ingressos! Seja Bem Vindo(a)", caso
+//o usuário não tenha dinheiro aparecerá a mensagem "Você infelizmente não consegue comprar os 
+//ingressos. Volte outro dia", mesmo estando no horário para comprar o ingresso.
+//caso a hora tenha passado da hora de assistir o filme o programa exibirá a seguinte mensagem 
+//Você infelizmente não consegue comprar os ingressos. Volte outro dia".
+//Autora: Fernanda de Almeida Guerra
+
+programa
+{
+	inclua biblioteca Calendario --> c
+	
+	funcao inicio()
+	{	
+		real p = 20
+		inteiro h = 18
+									
+		escreva ("\n====================EstudoNauta====================")
+		escreva ("\n\nHORÁRIO DO FILME: ",h)
+		escreva ("\n\nPREÇO DO INGRESSO: R$", p)
+		escreva ("\n\n----------------------------------------------------")
+		escreva ("\n")
+				
+		inteiro horas = (c.hora_atual (falso))
+		inteiro min = c.minuto_atual()
+		inteiro seg = c.segundo_atual()
+		escreva ("\nAgora são: ", horas, ":", min, ":",seg)
+		real din 
+		escreva ("\nQuanto de dinheiro você tem? R$ ")
+		leia (din)
+
+		se ((horas <= h) e ( din > p)) {
+			escreva ("\nVocê consegue comprar os ingressos! Seja Bem Vindo(a)!")
+		}
+		senao {
+			escreva ("\nVocê infelizmente não consegue comprar os ingressos. \nVolte outro dia.")
+		}
+
+		escreva ("\n\n")
+		}
+	
+}
