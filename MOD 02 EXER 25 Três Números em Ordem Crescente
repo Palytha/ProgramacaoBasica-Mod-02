@@ -1,0 +1,38 @@
+//Módulo 02 Exercício 25 Receba três números inteiros e coloque em ordem crescente
+//Aurato Fernanda de Almeida Guerra.
+programa
+{
+	
+	funcao inicio()
+	{	
+		inteiro n1, n2, n3
+		
+		escreva ("Digite o primeiro número: ")
+		leia (n1)
+		escreva ("Digite o segundo número: ")
+		leia (n2)
+		escreva ("Digite o terceiro número: ")
+		leia (n3)
+
+		 se (n1 < n2) {
+			se (n2 < n3) {
+				escreva ("\nPrimeiro ", n1,"\nSegundo ", n2,"\nTerceiro ", n3)
+			}senao {
+				escreva ("\nPrimeiro ", n1,"\nSegundo ", n3,"\nTerceiro ", n2)
+			}
+		}se (n2 > n1) {
+			se(n1 < n3) {
+				escreva ("\nPrimeiro ", n2,"\nSegundo ", n1,"\nTerceiro ", n3)
+			}senao {
+				escreva ("\nPrimeiro ", n2,"\nSegundo ", n3,"\nTerceiro ", n1)
+			}
+		}se (n3 < n1){
+			se (n1 < n2){
+				/*3, 1, 2*/
+				escreva ("\nPreimeiro ", n3,"\nSegundo ", n1,"\nTerceriro ", n2)
+			}senao {
+				escreva (n3, n2, n1)/* 3, 2, 1*/
+			}
+		} escreva ("\n\n")
+	}
+}
