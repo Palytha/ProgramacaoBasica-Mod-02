@@ -1,0 +1,32 @@
+//Módulo 02 Exercício 19 Inverso Oposto
+//O programa solicitará um número ao usuário e mostrará o INVERSO se o número digitado
+//for positivo e se o número digitado for negativo o programam mostrará o OPOSTO do número digitado. 
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+	
+	inclua biblioteca Matematica --> m
+	real  num, inv
+	inteiro opos
+	
+	funcao inicio()
+	{	
+		escreva("\n----------------------------\n")
+		escreva ("\nDigite um número: ")
+		leia (num)
+		escreva("\n----------------------------\n")
+		se (num > 0 ) {
+			inv = (1 / num)
+			
+			escreva ("\nO Inverso de ", num, " é: ", m.arredondar(inv, 4))
+			escreva ("\n\n")
+		}
+		se (num < 0 ) {
+			opos = (num * (-1))
+						
+			escreva ("\nO oposto é: ", opos)
+			escreva ("\n\n")
+		}
+	}
+}
