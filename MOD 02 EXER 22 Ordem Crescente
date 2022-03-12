@@ -1,0 +1,24 @@
+// Módulo 02 Exercício 22 Ordem Crescente
+//Autora Fernanda de Almeida Guerra
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num1, num2
+		
+		escreva ("\nDigite o primeiro número: ")
+		leia (num1)
+		escreva ("\nDigite o segundo número: ")
+		leia (num2)
+
+		se (num1 > num2){
+			escreva ("\nOs números em ordem são: ", num2, " e ", num1)
+		}senao se (num1 < num2) {
+			escreva ("\nOs números em ordem são: ", num1, " e ", num2)
+		}senao {
+			escreva ("\nNão tem como colocar esses valores em ordem. Eles são iguais")
+		}
+		escreva ("\n\n")	
+	}
+}
