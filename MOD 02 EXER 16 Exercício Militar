@@ -1,0 +1,30 @@
+//Módulo 02 Exercício 16 Serviço Militar v 1.0
+//O programa solicitará o ano de nascimento ao usuário, e calculará a idade se a 
+//idade for menor que 18 anos o programa exibirá a idade e a seguinte mensagem
+//"Você ainda não completou 18 anos. Não pode se alistar" se for maior que 18 anos exibirá  a
+//idade e a seguinte mensagem "Espero sinceramente que você tenha se alistado".
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+	inclua biblioteca Calendario --> c
+	
+	funcao inicio()
+	{
+		inteiro ano
+	
+		escreva ("Em que ano você nasceu: ")
+		leia (ano)
+
+		ano = c.ano_atual() - ano
+
+		se (ano >= 18 ) {
+			escreva ("\n\nSua idade atual é ", ano, " anos.")
+			escreva ("\n\nEspero sinceramente que você tenha se alistado.")
+		} senao {
+			escreva ("\n\nSua idade atual é ", ano, " anos.")
+			escreva ("\n\nVocê ainda não completou 18 anos. Não pode se alistar")
+		}
+		escreva ("\n\n")
+	}
+}
