@@ -1,0 +1,33 @@
+//Exercício 18 Módulo 02 Preço da Passagem 
+//O programa solicitará a distância total da viagem se a distância for maior ou igua a 200 km 
+//será cobrado o valor de  R$ 0,35 por km>200, se a distância for menor será cobrado o valor
+//de R$ 0,50 km< 200 por km. O programa exibirá a distância, informando quanto custará por km
+//e exibirá também o o valor total cobrado.
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+	
+	funcao inicio()
+	{
+
+		real dist, km
+		
+		escreva ("\nInforme a distâcia total da viagem, em Km: ")
+		leia (dist)
+
+		se ( dist < 200 ) {
+			km = (dist * 0.50)	
+			escreva ("\nUma viagem de ", dist," Km, vai custar R$0,50 por km.")
+			escreva ("O valor total é de: R$ ", km)
+			escreva ("\n")	
+		}
+		senao 
+		   {
+			 km = (dist * 0.35 )
+			 escreva ("\nUma viagem de ", dist," Km, vai custar R$0,35 por km.")	
+			 escreva ("O valor total é de: R$ ", km)
+			 escreva ("\n")
+			}
+	}
+}
