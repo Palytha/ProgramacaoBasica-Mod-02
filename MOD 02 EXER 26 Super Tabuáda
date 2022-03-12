@@ -1,0 +1,86 @@
+//Módulo 02 Exercício 26 Calculadora V1.0
+//O programa mostrará o menu de uma tabuada e solicitará ao usuário a operação que ele deseja 
+//efetuar e dois números, na tela o programa mostrará qual foi a operação solicitada e efetuará o calculo. 
+//Autora Fernanda de Almeida Guerra
+programa
+{
+	inclua biblioteca Tipos --> t
+	funcao inicio()
+	{	
+		//Menu principal
+		escreva ("\n==================================")
+		escreva ("\n          SUPER TABUADA       \n")
+		escreva ("==================================")
+		escreva ("\n +                         ADIÇÃO")
+		escreva ("\n -                      SUBTRAÇÃO")
+		escreva ("\n *                  MULTIPLICAÇÃO")
+		escreva ("\n /                        DIVISÃO")
+		escreva ("\n==================================")
+		escreva ("\n")
+
+		caracter op
+		inteiro n1, n2
+
+		escreva ("\nEscolha uma operação matemática ==> ")
+		leia (op)
+
+		//Validação dos operadores numéricos
+		escolha (op){
+			caso '1': caso '5':
+			 	op = '+'
+			 	pare
+			caso '2':
+				op = '-'
+				pare
+			caso '3':
+				op = '*'
+				pare
+			caso '4':
+				op = '/'
+				pare
+			caso contrario :
+				escreva ("ERRO")
+							
+		}
+		escreva ("Você escolheu a opção [", op, "]\n")
+		
+		escreva ("\n=================================")
+		escreva ("\n\nDigite o primeiro número: ")
+		leia (n1)
+		escreva ("Digite o segundo número: ")
+		leia (n2)
+		escreva ("\n====== Processando ==========\n")
+		escreva ("\nCalculando o valor de: ", n1," ", op ," ", n2 )
+		escreva ("\nO resultado da operação ")
+
+		//Resultado da Operação
+		escolha (op) {
+			caso '+': 
+				
+				escreva ("Soma é ", (n1 + n2 ))			
+				pare  
+
+			caso '-':
+
+				escreva ("Subtração é ", (n1 - n2))
+				pare
+
+			caso '*': 
+
+				escreva ("Multiplicação é ", (n1 * n2))
+				pare
+
+			caso '/':
+				
+				escreva ("Divisão é ", (t.inteiro_para_real(n1) / n2))
+				pare
+
+			caso contrario:
+			
+				escreva ("\n\n[ERRO] Sua operação não pode ser realizada")
+				pare
+		}
+		escreva ("\n\n=================================")
+		escreva ("\n\n\n")
+	}
+}
