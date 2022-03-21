@@ -1,8 +1,8 @@
-//Módulo 02 Exercício 14 Consumidor ganha 10% de desconto se gastar mais que R$ 500 reais em compras
-//O programa solicitará ao usuário o valor total das compras se o valor for maior que 
-//R$500 reais receberá um desconto de 10%, o programa calculará o novo valor e exibirá
-//na tela o novo valor com desconto.
-//Autora Fernanda de Almeida Guerra
+/*Módulo 02 Exercício 14 Consumidor ganha 10% de desconto
+  O programa solicitará ao usuário o valor total das compras se o valor for maior que 
+  R$500 reais receberá um desconto de 10%, o programa calculará o novo valor e exibirá
+  na tela o valor com desconto.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
