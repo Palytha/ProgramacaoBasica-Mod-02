@@ -1,9 +1,9 @@
-//Módulo 02 Exercício 16 Serviço Militar v 1.0
-//O programa solicitará o ano de nascimento ao usuário, e calculará a idade se a 
-//idade for menor que 18 anos o programa exibirá a idade e a seguinte mensagem
-//"Você ainda não completou 18 anos. Não pode se alistar" se for maior que 18 anos exibirá  a
-//idade e a seguinte mensagem "Espero sinceramente que você tenha se alistado".
-//Autora Fernanda de Almeida Guerra
+/*Módulo 02 Exercício 16 Serviço Militar v 1.0
+  O programa solicitará o ano de nascimento ao usuário e calculará a idade 
+  - Se a idade for menor que 18 anos o programa exibirá a idade e a seguinte mensagem
+  "Você ainda não completou 18 anos. Não pode se alistar" 
+  - Se for maior que 18 anos exibirá  a idade e a seguinte mensagem "Espero sinceramente que você tenha se alistado".
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
