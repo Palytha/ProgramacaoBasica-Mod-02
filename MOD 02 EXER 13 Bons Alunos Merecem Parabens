@@ -1,9 +1,9 @@
-//Módulo 02 Exercício 13 Bons Alunos Merecem Parabéns
-//O programa solicitará duas notas e calculará a média, se a média for maior que
-//7 o programa exibirá a seguinte mensagem "MEUS PARABÉNS!!!" e sua média. Caso a 
-//média seja menor que 7 exibirá somente a média.
-//O programa utiliza a biblioteca Matemática para arredondar a nota.
-//Autora Fernanda de Almeida Guerra
+/*Módulo 02 Exercício 13 Bons Alunos Merecem Parabéns
+  O programa utiliza a biblioteca Matemática para arredondar a nota.
+  O programa solicitará duas notas e mostrará na tela:
+  - A média, e se a média for maior que 7 o programa exibirá a seguinte mensagem "MEUS PARABÉNS!!!".
+  - Caso a média seja menor que 7 exibirá somente a média.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
