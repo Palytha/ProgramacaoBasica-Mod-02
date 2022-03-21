@@ -1,9 +1,9 @@
-//Módulo 02 Exercício 17 bissesto. Sabemos se um ano é bissexto se...
-//Caso 1) É um número divisível por 4, mas não é divisível por 100.
-//Caso 2) É um número divisível por 4, por 100 e por 40.
-//O programa solicitará ao usuário para digirar um ano qualquer e calculará
-//se esse ano é um ano bissexto ou não exibindo na tela a mensagem.
-//Autora Fernanda de Almeida Guerra.
+/*Módulo 02 Exercício 17 bissesto. Sabemos se um ano é bissexto se...
+  -Caso 1) É um número divisível por 4, mas não é divisível por 100.
+  -Caso 2) É um número divisível por 4, por 100 e por 40.
+  O programa solicitará ao usuário para digirar um ano qualquer e calculará
+  se esse ano é um ano bissexto ou não.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {	//CASO 01 É DIVISÍVEL POR 4/ NÃO É DIVISÍVEL POR 1001
