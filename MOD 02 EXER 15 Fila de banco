@@ -1,8 +1,9 @@
-//Módulo 02 Exercício 15 Fila de banco
-//O programa solicitará o ano de nascimento, calculará a idade do cliente, caso o cliente tiver a idade
-//maior ou igual a 65 anos o programa exibirá a mensagem "ATENÇÃO DIRIJA-SE PARA FILA PREFERÊNCIAL!"
-//Caso a idade seja menor que 65 anos exibirá a idade do cliente e a mensagem "Seja bem vindo(a) ao Banco EstudoNauta!".
-//Autora: Fernanda de Almeida Guerra
+/*Módulo 02 Exercício 15 Fila de banco
+  Utilizaremos a biblioteca Calendário para utilizar o ano atualizado
+  O programa solicitará o ano de nascimento e calculará a idade do cliente.
+  - Se o cliente tiver a idade maior ou igual a 65 anos o programa exibirá a mensagem "ATENÇÃO DIRIJA-SE PARA FILA PREFERÊNCIAL!"
+  - Se a idade seja menor que 65 anos exibirá a idade do cliente e a mensagem "Seja bem vindo(a) ao Banco EstudoNauta!".
+  Autora: Fernanda de Almeida Guerra.*/
 
 programa
 {
