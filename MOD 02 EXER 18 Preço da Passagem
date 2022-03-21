@@ -1,7 +1,7 @@
 /*Módulo 02 Exercício 18 Preço da Passagem 
   O programa solicitará a distância total da viagem 
-  - Se a distância for maior ou igua a 200 km será cobrado o valor de  R$ 0,35 por km>200
-  - Se a distância for menor será cobrado o valor de R$ 0,50 km< 200 por km. 
+  - Se a distância for maior ou igua a 200 km será cobrado o valor de  R$ 0,35 por km 
+  - Se a distância for menor que 200 km será cobrado o valor de R$ 0,50 
   O programa exibirá a distância, informando quanto custará por km
   e exibirá também o o valor total cobrado.
   Autora Fernanda de Almeida Guerra.*/
