@@ -1,7 +1,8 @@
 /*Módulo 02 Exercício 27 Seu Peso nos Planetas
-//O programam mostrará um menu com o nome dos planetas e solicitará ao usuário o seu peso e em qual planeta
-//deseja calcular o peso. Na tela mostrará o nome do planeta escolhido e seu peso naquele planeta.
-//Autora Fernanda de Almeida Guerra.*/
+  O programam mostrará um menu com o nome dos planetas e solicitará ao usuário o seu peso e em qual planeta
+  deseja calcular o peso. 
+  - Na tela mostrará o nome do planeta escolhido e seu peso naquele planeta.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
