@@ -1,7 +1,8 @@
-//Módulo 02 Exercício 19 Inverso Oposto
-//O programa solicitará um número ao usuário e mostrará o INVERSO se o número digitado
-//for positivo e se o número digitado for negativo o programam mostrará o OPOSTO do número digitado. 
-//Autora Fernanda de Almeida Guerra
+/*Módulo 02 Exercício 19 Inverso Oposto
+  O programa solicitará um número ao usuário e mostrará 
+  - O INVERSO, se o número digitado for positivo 
+  - Se o número digitado for negativo o programam mostrará o OPOSTO do número digitado. 
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
