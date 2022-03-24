@@ -1,7 +1,7 @@
 /*Módulo 02 Exercício 24 Naturalidade por estado (Gentílicos por estado)
-//O programa solicitará ao usuário o estado de nascimento e em seguida 
-//exibirá na tela o estado e a naturalidade do usuário.
-//Autora Fernanda de Almeida Guerra.*/
+  O programa solicitará ao usuário o estado de nascimento e em seguida 
+  exibirá na tela o estado e a naturalidade do usuário.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
