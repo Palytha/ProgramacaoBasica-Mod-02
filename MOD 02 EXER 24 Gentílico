@@ -1,6 +1,9 @@
 /*Módulo 02 Exercício 24 Naturalidade por estado (Gentílicos por estado)
+  Utilizamos a biblioteca Texto para deixar os caracteres maiúsculos.
   O programa solicitará ao usuário o estado de nascimento e em seguida 
-  exibirá na tela o estado e a naturalidade do usuário.
+  exibirá na tela:
+  - O estado 
+  - A naturalidade do usuário.
   Autora Fernanda de Almeida Guerra.*/
 
 programa
