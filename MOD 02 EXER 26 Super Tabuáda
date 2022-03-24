@@ -9,7 +9,7 @@
 
 programa
 {
-	inclua biblioteca Tipos --> t
+	
 	funcao inicio()
 	{	
 		//Menu principal
