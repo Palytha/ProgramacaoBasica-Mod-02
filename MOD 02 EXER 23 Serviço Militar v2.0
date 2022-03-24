@@ -1,11 +1,13 @@
-//Módulo 02 Exercício 23 Serviço Militar V2.0
-//O programa solicitará o ano de nascimento e calculará a idade do usuário, o programa
-//exibirá o ano atual e idade do usuário se a idade for igual a 18 exibirá a seguinte
-//mensagem "JOVEM! Você precisa se alistar!", se a idade for menor que 18 exibirá a 
-//seguinte mensagem "Você ainda não completou 18 anos." e quanto tempo falta para completar 
-//18 anos e se a idade for maior que 18 anos o programa exibirá a mensagem " Você deveria 
-//ter se alistado" e calculará o ano que era para ter feito o alistamento.
-//Autora Fernanda de Almeida Guerra
+/*Módulo 02 Exercício 23 Serviço Militar V2.0
+  O programa solicitará o ano de nascimento do usuário 
+  - Calculará a idade 
+  - O programa exibirá o ano atual e a idade do usuário
+  - se a idade for igual a 18 exibirá a seguinte mensagem "JOVEM! Você precisa se alistar!"
+  - Se a idade for menor que 18 exibirá a seguinte mensagem "Você ainda não completou 
+  18 anos." e quanto tempo falta para completar os 18 anos 
+  - Se a idade for maior que 18 anos o programa exibirá a mensagem " Você deveria 
+  ter se alistado" e calculará o ano que era para ter feito o alistamento.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {	
