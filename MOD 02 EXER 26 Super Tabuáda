@@ -1,6 +1,10 @@
 /*Módulo 02 Exercício 26 Calculadora V1.0
-  O programa mostrará o menu de uma tabuada e solicitará ao usuário a operação que ele deseja 
-  efetuar e dois números, na tela o programa mostrará qual foi a operação solicitada e efetuará o calculo. 
+  O programa mostrará o menu de uma tabuada e solicitará ao usuário:
+  - A operação que ele deseja efetuar
+  - Dois números
+  - Na tela exibirá: 
+  - Qual foi a operação solicitada 
+  - E o resultado da operação.
   Autora Fernanda de Almeida Guerra.*/
 
 programa
