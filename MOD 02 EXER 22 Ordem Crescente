@@ -1,5 +1,7 @@
-// Módulo 02 Exercício 22 Ordem Crescente
-//Autora Fernanda de Almeida Guerra
+/* Módulo 02 Exercício 22 Ordem Crescente
+   O programa solicitará ao usuá dois números e colocará esses
+   números em ordem crescente.
+   Autora Fernanda de Almeida Guerra.*/
 programa
 {
 	
