@@ -1,8 +1,9 @@
-//Módulo 02 Exercício 21 Positivos e Negativo
-//O programa solicitará ao usuário para digitar um número e o programa exibirá
-//na tela se o número digitado é um número negativo, positivo ou um número
-//nulo.
-//Autora Fernanda de Almeida Guerra
+/*Módulo 02 Exercício 21 Positivos e Negativo
+  O programa solicitará ao usuário para digitar um número e o programa exibirá na tela:
+  - Se o número digitado é um número negativo
+  - Se é positivo
+  - Se é um número nulo.
+  Autora Fernanda de Almeida Guerra.*/
 programa
 {
 	
